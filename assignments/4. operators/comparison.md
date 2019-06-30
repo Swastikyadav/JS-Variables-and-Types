@@ -2,78 +2,78 @@
 
 Write the output (true / false) next to the comparision done below.
 ```js
-"hello world" === "hello world"; // Output
+"hello world" === "hello world"; // True
 
-"hello world" == "hello world";
+"hello world" == "hello world";  // True
 
-true === true;
+true === true; // True
 
-77 == "77";
+77 == "77";    // True
 
-77 === "77";
+77 === "77";   // False
 
-"cat" === "dog";
+"cat" === "dog"; // False
 
-false === 0;
+false === 0;   // False
 
-false == 0;
+false == 0;    // True
 
-0 == "";
+0 == "";       // True
 
-"" == false;
+"" == false;   // True
 
-null == null;
+null == null;  // True
 
-undefined == undefined;
+undefined == undefined; // True
 
-null == undefined;
+null == undefined; // True
 
-null == 0
+null == 0      // False
 
-null == 21
+null == 21     // False
 
-null == "null"
+null == "null" // True
 
-undefined == "undefined"
+undefined == "undefined" // True
 
-undefined == 0
+undefined == 0 // False
 
-undefined == false
+undefined == false // False
 
-undefined == "false"
+undefined == "false" // False
 
-NaN == null;
+NaN == null;   // False
 
-NaN == "NaN"
+NaN == "NaN"   // False - NaN is the only value which is not equall to itself.
 
-NaN == 0
+NaN == 0       // False
 
-NaN == false
+NaN == false   // False
 
-NaN == undefined;
+NaN == undefined; // False
 
-NaN == NaN;
+NaN == NaN;    // False - NaN is not equall to even itself. 
 
-2 > 1
+2 > 1          // True 
 
-2 != 1
+2 != 1         // True   
 
-'Z' > 'A'
+'Z' > 'A'      // True
 
-"Hello World" > "Super Mario"
+"Hello World" > "Super Mario"  // False
 
-"Hello World" != "Super Mario"
+"Hello World" != "Super Mario" // True
 
-NaN !== NaN
+NaN !== NaN     // True
 
-NaN != NaN
+NaN != NaN      // True
 
-NaN != undefined
+NaN != undefined     // True
 
-undefined != null
+undefined != null    // False
 
-undefined != "Hello"
+undefined != "Hello" // True    
 
-undefined != "undefined"
+undefined != "undefined" // True
 
 ```
