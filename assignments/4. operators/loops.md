@@ -14,6 +14,17 @@ const ACCESSORY_PRICE = 9.99;
 var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
+
+let purchase_amount = 0;
+while(purchase_amount < bank_balance) {
+    purchase_amount += PHONE_PRICE;
+    if (purchase_amount < SPENDING_THRESHOLD) {
+        purchase_amount += ACCESSORY_PRICE;
+    }
+}
+let tax = purchase_amount * 0.08 / 100;
+let final_amount = (purchase_amount + tax).toFixed(2);
+console.log(`$${final_amount}`);
 ```
  ⛑ Answer of the above will `$334.76`.
 
@@ -33,7 +44,7 @@ for (var i = 0; i <= 20; i++) {
 3. 🎖Write a for loop that will iterate from 0 to 10. For each iteration of the for loop, it will multiply the number by 9 and log the result in console (e.g. "2 * 9 = 18").
 
 ```js
-
+// Your code goes here
 for (var i = 0; i <= 10; i++) {
     console.log(i*9);
 }
@@ -47,12 +58,30 @@ for (var i = 0; i <= 10; i++) {
 "1 * 4 = 4"
 .... for all 100 results)
 
+```js
+// Your code goes here
+for (var i = 1; i < 11; i++) {
+    for (var j = 1; j < 11; j++) {
+        let product = i*j;
+        console.log(`${i} * ${j} = ${product}`);
+    }
+}
+```
+
 5. 🎖Show the following output using one loop.
 ```js
 // 1, 2, 3, 4, 5
 // 6, 7, 8, 9, 10
 
 // Your code goes here
+var line1 = "";
+var line2 = "";
+for (var i = 1; i < 11; i++) {
+    if (i < 6) {line1 += i + " ";}
+    else {line2 += i + " ";}
+}
+console.log(line1);
+console.log(line2);
 ```
 
 6. 🎖Use a while loop to add up the numbers 1 to 20.
