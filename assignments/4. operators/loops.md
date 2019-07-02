@@ -15,16 +15,28 @@ var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
 
-let purchase_amount = 0;
-while(purchase_amount < bank_balance) {
-    purchase_amount += PHONE_PRICE;
-    if (purchase_amount < SPENDING_THRESHOLD) {
-        purchase_amount += ACCESSORY_PRICE;
-    }
+while(true) {
+	if(bank_balance < 0) break;
+	bank_balance -= PHONE_PRICE;
+	amount += PHONE_PRICE;
+	if (amount < SPENDING_THRESHOLD) {
+		bank_balance -= ACCESSORY_PRICE;
+		amount += ACCESSORY_PRICE;
+	}
 }
-let tax = purchase_amount * 0.08 / 100;
-let final_amount = (purchase_amount + tax).toFixed(2);
-console.log(`$${final_amount}`);
+// Afford?
+(amount <= bank_balance) ? console.log('You can afford this') : console.log("You can't afford this");
+
+// Tax
+function tax(amount) {
+	return (TAX_RATE * amount);
+}
+// Add tax and amount
+function finalAmount(amount) {
+	return (amount + tax(amount) );
+}
+
+console.log( `$ ${finalAmount(amount).toFixed(2)}` );
 ```
  ⛑ Answer of the above will `$334.76`.
 
