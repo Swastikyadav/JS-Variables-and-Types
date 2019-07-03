@@ -2,78 +2,78 @@
 
 Write the output (true / false) next to the comparision done below.
 ```js
-"hello world" === "hello world"; // True
+"hello world" === "hello world"; // true
 
-"hello world" == "hello world";  // True
+"hello world" == "hello world";  // true
 
-true === true; // True
+true === true; // true
 
-77 == "77";    // True
+77 == "77";    // true
 
-77 === "77";   // False
+77 === "77";   // false
 
-"cat" === "dog"; // False
+"cat" === "dog"; // false
 
-false === 0;   // False
+false === 0;   // false
 
-false == 0;    // True
+false == 0;    // true
 
-0 == "";       // True
+0 == "";       // true
 
-"" == false;   // True
+"" == false;   // true
 
-null == null;  // True
+null == null;  // true
 
-undefined == undefined; // True
+undefined == undefined; // true
 
-null == undefined; // True
+null == undefined; // true
 
-null == 0      // False
+null == 0      // false
 
-null == 21     // False
+null == 21     // false
 
-null == "null" // True
+null == "null" // false
 
-undefined == "undefined" // True
+undefined == "undefined" // true
 
-undefined == 0 // False
+undefined == 0 // talse
 
-undefined == false // False
+undefined == false // false
 
-undefined == "false" // False
+undefined == "false" // false
 
-NaN == null;   // False
+NaN == null;   // false
 
-NaN == "NaN"   // False - NaN is the only value which is not equall to itself.
+NaN == "NaN"   // false - NaN is the only value which is not equall to itself.
 
-NaN == 0       // False
+NaN == 0       // false
 
-NaN == false   // False
+NaN == false   // false
 
-NaN == undefined; // False
+NaN == undefined; // false
 
-NaN == NaN;    // False - NaN is not equall to even itself. 
+NaN == NaN;    // false - NaN is not equall to even itself. 
 
-2 > 1          // True 
+2 > 1          // true 
 
-2 != 1         // True   
+2 != 1         // true   
 
-'Z' > 'A'      // True
+'Z' > 'A'      // true
 
-"Hello World" > "Super Mario"  // False
+"Hello World" > "Super Mario"  // false
 
-"Hello World" != "Super Mario" // True
+"Hello World" != "Super Mario" // true
 
-NaN !== NaN     // True
+NaN !== NaN     // true
 
-NaN != NaN      // True
+NaN != NaN      // true
 
-NaN != undefined     // True
+NaN != undefined     // true
 
-undefined != null    // False
+undefined != null    // false
 
-undefined != "Hello" // True    
+undefined != "Hello" // true    
 
-undefined != "undefined" // True
+undefined != "undefined" // true
 
 ```

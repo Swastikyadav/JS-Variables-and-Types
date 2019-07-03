@@ -30,7 +30,7 @@ false || false; // false
 ""    || "foo"; // foo
 " "   || "John" || "" || false  // " "
 false || "Hey" || undefined     // Hey
-"undefined" || false || 42      // 42
+"undefined" || false || 42      // "undefined"
 ```
 
 2. 🥈You have two variables i.e `isGuestOneVeg` and  `isGuestTwoVeg` according to the value using logical && and || opeartor do the following.

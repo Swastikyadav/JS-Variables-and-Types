@@ -1,13 +1,13 @@
 1. 🎖 What's the outpit of the code below
 ```js
-typeof "Joe"; // String
-typeof 4;     // Number
-typeof NaN;   // Number
-typeof false; // Boolean
-typeof function () {}; // Function
-var phone = 8983700;   // Number
-typeof phone; // Undefined 
-typeof null;  // Null
+typeof "Joe"; // "string"
+typeof 4;     // "number"
+typeof NaN;   // "number"
+typeof false; // "boolean"
+typeof function () {}; // "function"
+var phone = 8983700;   // "number"
+typeof phone; // "undefined" 
+typeof null;  // "object"
 ```
 
 2. 🎖 Output of the code below

@@ -27,7 +27,7 @@ var woman3;   // Valid
 var -girl;    // Valid
 var blackDog; // Valid - Camel Casing.
 var 42;       // Invalid - variable can't start with number.
-var $42;      // Valid - Cant start with special character.
+var $42;      // Valid - Can start with $.
 var userName; // Valid - Camel Casing
 var x, y, z;  // Valid - Can declare multiple variables in one line.
 var x = 5, y = 6, z = 7; // Valid - Can assign valuew to multiple variables in one line.
